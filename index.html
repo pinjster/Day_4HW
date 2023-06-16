@@ -55,32 +55,48 @@
     </nav>
 
     <!-- Carousel / Main -->
-    <main class="d-flex flex-column justify-content-center m-5">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade w-50 m-auto">
-            <div class="carousel-inner h-50">
-              <div class="carousel-item active">
-                <img src="./images/two_bottles.webp" class="d-block w-100 img-fluid" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/re_bottle.webp" class="d-block w-100 img-fluid" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/pour_bottle.webp" class="d-block w-100 img-fluid" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+    <main class="d-flex flex-column justify-content-center m-5 " >
+            <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto p-2 rounded-4 shadow-lg ">
+                <div class="carousel-inner rounded-3">
+                  <div class="carousel-item active">
+                    <img src="./images/two_bottles.webp" class="d-block img-fluid " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/re_bottle.webp" class="d-block img-fluid " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/pour_bottle.webp" class="d-block img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
     </main>
 
     <!-- Comments / Grid / Article-->
+    <div class="container text-center bg-secondary w-50 rounded-4 text-white p-3 shadow-sm mb-lg-5">
+        <div class="row">
+            <div class="col-sm text-start"><h2>Spellman's Potion's Variety Pack (3-Pack)</h3></div>
+            <div class="d-inline">
+                <button class=" d-inline btn text-warning bg-white rounded-circle shadow-sm" type="submit">
+                    <i class="fa-solid fa-coins"></i>
+                </button>
+                <h4 class="text-start m-1 d-inline">380 gold coins</h4>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg my-3 w-50 bg-info border-white">Buy now</button>
+                <button type="button" class="btn btn-primary btn-lg my-3 ms-4 text-info bg-white border-info">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <div>
 
+    </div>
     <!--  Footer /  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
